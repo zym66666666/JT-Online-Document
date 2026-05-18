@@ -1,0 +1,414 @@
+Here is the English version of the privacy policy for Jiutian Innovation (Guangdong) Intelligent Technology Co., Ltd., generated based on the HTML content you provided. The structure, styling, and all substantive content have been preserved and translated.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiutian Innovation (Guangdong) Intelligent Technology Co., Ltd. - Privacy Policy</title>
+    <style>
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .policy-container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            font-size: 24px;
+        }
+        h2 {
+            color: #34495e;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .meta-info {
+            text-align: center;
+            color: #7f极速赛车开奖直播平台_168幸运飞行艇官网极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询计划_168飞艇官网开奖记录查询8c8d;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        p, li {
+            font-size: 14px;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #e74c3c;
+        }
+        .attachment {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        a {
+            color: #3498db;
+            word-break: break-all;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .policy-container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="policy-container">
+        <div class="meta-info">
+            <p>Last Updated: May 18, 2026</p>
+            <p>Effective Date: August 31, 2022</p>
+        </div>
+
+        <p>Jiutian Innovation (Guangdong) Intelligent Technology Co., Ltd. (hereinafter referred to as "we" or "Jiutian")深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。We are committed to maintaining your trust and adhere to the following principles to protect your personal information: the principle of权责一致, purpose limitation, choice and consent, data minimization, security, subject participation, and transparency. At the same time, we promise to adopt corresponding security protection measures to protect your personal information according to industry standards. This Privacy Policy applies to all products and services provided by us through Jiutian websites (www.jtcx.cn and its subdomains, hereinafter referred to as the "Website"), APP, and other terminal clients. This Privacy Policy explains how we collect, use, and share personal information through your use of our products and services (including but not limited to our mobile applications and robot user equipment).</p>
+        <p>Please read and understand this Privacy Policy (hereinafter referred to as "this Policy") carefully before using our products or services, especially the terms marked in bold/underline, which you should focus on. Please confirm that you have fully understood and agreed before starting to use. Unless otherwise specified,不同意本隐私权政策或其更新（我们将及时通知您此类更新）可能会影响您正常使用或继续正常使用我们的产品/服务. If you have any questions, comments, or suggestions regarding the content of this Policy, you can contact us through the contact information provided in "Section 12: Contact Us".</p>
+
+        <h2>1. How and What Types of Personal Information We Collect</h2>
+        <h3>1.1 Personal Information You Provide to Us</h3>
+        <p>The categories of personal information you provide to us may include (for detailed personal information we collect and applicable services and functions, please see Appendix 1):</p>
+        <ul>
+            <li>Contact information, such as name, address, location, phone number, and zip code;</li>
+            <li>Online and device identifiers, such as Device ID (i.e., the unique device identification code of the device you use, such as IMEI/Android ID/IDFA/OpenUDID/OAID, etc.), IP address, MAC address, Cookies, robot number, username, and password;</li>
+            <li>Account information, such as nickname, avatar, account, and password;</li>
+            <li>Detailed page browsing information, such as access time and duration.</li>
+        </ul>
+
+        <h3>1.2 Personal Information We Collect Automatically</h3>
+        <p>This personal information includes log data, such as the device's IP address, browser type, browser version, the pages of our website that you visit, the time and date of your visit, the time spent on those pages, and whether you accessed our pages through social media or email advertisements. In addition, we may collect such personal information through various technologies, including Cookies, web beacons, clear GIFs, and other means.</p>
+
+        <h3>1.3 Personal Information Collected Through Robot Device Clients</h3>
+        <p>Our robot device clients collect personal information to function properly. For example, the robot will collect your WiFi network information to enable wireless connection and operation. In addition, the robot will collect movement information of the robot in the cleaned environment, which is necessary for the robot to create a "map" of the working area and identify objects or obstacles encountered along the cleaning path. For specific personal information collected through the device and its applicable functions and services, please see Appendix 1.</p>
+
+        <h3>1.4 Personal Information We Collect from Third Parties</h3>
+        <p>If you access our website through a third party (such as email, WeChat, or Weibo) or share content from our website to a third-party social media service, that service may send us some of your personal information, provided that the service's policies and your account settings allow it. The personal information we receive depends on that service's privacy policy and your account settings with the third-party service. Please note that we will protect indirectly obtained personal information with measures no less stringent than those we use to protect our own users' personal information. We will require the third party to warrant the legality and compliance of the source of the personal information. Personal information obtained from third parties will be used to provide you with services and to ensure the accuracy of our records concerning you.</p>
+
+        <h3>1.5 Device Permissions</h3>
+        <p>When you use our products and services, we will only invoke the following device permissions when necessary:</p>
+        <ul>
+            <li><span class="highlight">Camera and Photo Library Permissions (iOS and Android):</span> When you use interactive messaging (sessions with customer service), settings, editing user avatars, screenshot feedback, and related services, we need to apply for and obtain these permissions to use the camera or read photos from the photo library so that you can use the related services. During your operation, our application or product will access your camera or read local photos or videos. We承诺仅读取或存储应用所必需的信息. Disabling camera and photo library permissions will affect the use of interactive messaging, settings, avatar editing, and screenshot feedback services but will not affect other services.</li>
+            <li><span class="highlight">Local Storage Permission (Android):</span> When you use APP upgrades and error reporting services, we need to apply for and obtain this permission to read and write content on the storage card, so that you can upload materials and download files. During your operation, our application or product will read your local location, mobile device ID, user account, robot ID, WiFi name and password, and log file list for local preview. We承诺仅读取或存储应用所必需的信息. Disabling local storage permission will affect APP upgrade and error reporting services but will not affect other services.</li>
+            <li><span class="highlight">Location Permission (iOS and Android):</span> When you use international dialing code positioning, network diagnosis, and network configuration services, we need to apply for and obtain this permission to access your location to provide you with the international dialing code for your location or to configure the network. During your operation, our application or product will access your location and WiFi SSID information. We承诺仅读取或存储应用所必需的信息. Disabling location permission will default the dialing code to +86 and prevent the use of network configuration services but will not affect other services.</li>
+            <li><span class="highlight">Local Network Permission (iOS):</span> When you use the APP to connect to the robot, we need to apply for local network permission for WiFi configuration, so that the APP can scan for the robot's hotspot during network configuration to carry out the配网流程. We承诺仅读取或存储应用所必须的信息. Disabling this permission will cause the network configuration service to fail but will not affect other services.</li>
+        </ul>
+
+        <h2>2. How We Use Personal Information</h2>
+        <h3>2.1 Modes of Use</h3>
+        <p>We use personal information in the following ways (for the types of personal information collected and used for our various services and functions, please see Appendix 1):</p>
+        <ul>
+            <li>To provide you with our goods and services, including assisting you in purchasing and using our robot clients and associated mobile applications;</li>
+            <li>To analyze website usage and accordingly improve service levels;</li>
+            <li>To conduct market research, project planning, and troubleshooting;</li>
+            <li>To safeguard the interests of the state, the public, and you and others.</li>
+        </ul>
+
+        <h3>2.2 Authorization</h3>
+        <p>If the information you provide contains personal information of other users, you must ensure that you have obtained合法授权 before providing it to us. If it involves personal information of minors, you must obtain the consent of the corresponding minor's guardian before publishing. In such cases, the guardian has the right to contact us through the channels provided in Section 12 of this Policy to request correction or deletion of the minor's personal information.</p>
+        <p>If we use information for purposes not stated in this Policy, or use information collected for a specific purpose for other purposes, or if we actively obtain your personal information from a third party, we will obtain your consent in advance.</p>
+
+        <h3>2.3 Exceptions to Consent</h3>
+        <p>You fully understand and agree that we may collect and use your personal information without your authorization in the following circumstances, and we may not respond to your requests for correction/modification, deletion, cancellation, withdrawal of consent, or access to information:</p>
+        <ul>
+            <li>Related to national security and defense security;</li>
+            <li>Related to public safety, public health, and major public interests;</li>
+            <li>Related to criminal investigation, prosecution, trial, and execution of judgments or other judicial or administrative law enforcement;</li>
+            <li>Where necessary to protect the life, property, and other重大合法权益 of you or other individuals, but where it is difficult to obtain the consent of the individual;</li>
+            <li>Personal information that you have disclosed to the public;</li>
+            <li>Personal information collected from legally disclosed information, such as through legitimate news reports or government information disclosure channels;</li>
+            <li>Necessary for the conclusion and performance of agreements or other written documents with you;</li>
+            <li>Necessary for maintaining the secure and stable operation of the provided products and/or services, such as discovering and handling product and/or service failures;</li>
+            <li>Necessary for legitimate news reporting;</li>
+            <li>Where academic research institutions use the information for statistical or academic research based on public interest, and when providing the results of academic research or descriptions to the outside world, the personal information contained in the results is de-identified;</li>
+            <li>Other circumstances provided by laws and regulations.</li>
+        </ul>
+        <p>Please note that under applicable law, if we take technical measures and other necessary measures to process personal information so that the data recipient cannot re-identify a specific individual and cannot restore it, or if we de-identify the collected information for research, statistical analysis, and prediction to improve our content and layout, provide product or service support for business decisions, and improve our products and services (including using anonymous data for machine learning or model algorithm training), then the use of such processed data does not require separate notification to you or your consent.</p>
+
+        <h2>3. How We Share, Transfer, and Disclose Personal Information</h2>
+        <h3>3.1 Sharing</h3>
+        <p>We will not share your personal information with any companies, organizations, or individuals outside of Jiutian, except in the following circumstances:</p>
+        <ul>
+            <li><span class="highlight">Affiliates and Service Providers:</span> We may share your personal information with third-party service providers and any subcontractors as needed to provide you with our products and services. If we share your sensitive personal information or if an affiliate changes the purpose of use and processing of personal information, we will seek your authorization and consent again. For a list of circumstances in which we share your personal information with third-party service providers, please see Appendix 2.</li>
+            <li><span class="highlight">Third-Party Links and Websites:</span> Our website may contain links to third-party websites. If you click on any such link, please note that these websites have their own privacy policies, for which we are not responsible. Please review their privacy policies before submitting any personal information to these websites.</li>
+            <li><span class="highlight">Sharing with Your Explicit Consent:</span> After obtaining your explicit consent, we will share your personal information with third parties.</li>
+        </ul>
+
+        <h3>3.2 Transfer</h3>
+        <p>We will not transfer your personal information to any company, organization, or individual, except in the following circumstances:</p>
+        <ul>
+            <极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询li><span class="highlight">Transfer with Your Explicit Consent:</span> After obtaining your explicit consent, we will transfer your personal information to a third party.</li>
+            <li><span class="highlight">Transfer Due to Change of Control:</span> Personal information may be transferred to a third party due to sale, acquisition, merger, reorganization, or other change of control. If we sell, merge, or transfer any part of our business, part of the sale may include your personal information. In such cases, we will require the new holder of your personal information to continue to be bound by this Policy; otherwise, we will require the company, organization, or individual to seek your authorization and consent again.</li>
+        </ul>
+
+        <h3>3.3 Disclosure</h3>
+        <p>We will only disclose your personal information under the following circumstances:</p>
+        <ul>
+            <li><span class="highlight">Disclosure with Your Explicit Consent:</span> After obtaining your explicit consent, we will disclose your personal information to a third party.</li>
+            <li><span class="highlight">Disclosure Required by Law:</span> We may disclose your personal information in response to lawful requests by government authorities (including to meet law enforcement requirements). We may be obliged to disclose or share your personal information to comply with legal obligations, to enforce or apply our terms and other agreements, or to protect our rights, property, and safety, or the rights, property, or safety of others. This also includes exchanging personal information with other companies and organizations for fraud prevention.</li>
+        </ul>
+
+        <h3>3.4 Exceptions to Prior Consent for Sharing, Transfer, and Disclosure</h3>
+        <p>In the following circumstances, sharing, transferring, or publicly disclosing your personal information does not require prior authorization and consent:</p>
+        <ul>
+            <li>Related to national security and defense security;</li>
+            <li>Related to public safety, public health, and major public interests;</li>
+            <li>Related to criminal investigation, prosecution, trial, and execution of judgments or other judicial or administrative law enforcement;</li>
+            <li>Where necessary to protect the life, property, and other重大合法权益 of you or other individuals, but where it is difficult to obtain the consent of the individual;</li>
+            <li>Personal information that you have disclosed to the public;</li>
+            <li>Personal information collected from legally disclosed information, such as through legitimate news reports or government information disclosure channels.</li>
+        </ul>
+        <p>Please note that under applicable law, if we take technical measures and other necessary measures to process personal information so that the data recipient cannot re-identify a specific individual and cannot restore it, then the sharing, transfer, or public disclosure of such processed data does not require separate notification to you or your consent.</p>
+
+        <h2>4. How We Use Cookies and Similar Technologies</h2>
+        <h3>4.1 Cookies</h3>
+        <p>In order for our website and services to function properly, we sometimes place small data files called Cookies on your computer, mobile device, or other devices. A Cookie is a small data file that a website or mobile application places on your computer, mobile device, or other device when you visit the website. It allows the website to remember your actions and preferences (such as login name, shopping cart, or other preferences) over a period of time, so that you do not have to re-enter them every time you return to the site or move from one page to another. We will not use Cookies for any purpose other than those described in this Policy. If your browser or browser add-on service allows, you can modify your acceptance of Cookies or refuse our Cookies.</p>
+
+        <h3>4.2 Similar Technologies</h3>
+        <p>In addition to Cookies, we may also use other similar technologies on our website, such as web beacons and pixel tags. For example, emails we send to you may contain clickable URLs that link to content on our website. If you click on such a link, we will track this click to help us understand your product or service preferences and improve customer service. A web beacon is usually a transparent image embedded in a website or email. With the help of pixel tags in emails, we can know whether an email has been opened. If you do not wish your activity to be tracked in this way, you can unsubscribe from our mailing list at any time.</极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询开奖记录查询p>
+
+        <h2>5. How We Use SDKs</h2>
+        <p>In order to provide and optimize our services, our website and App may embed third-party SDKs. While these third-party SDKs assist us in providing you with more comprehensive services, they may collect your personal information and provide this information to third parties under our control. We will take necessary measures to control the collection and use of your personal information by such third-party SDKs and ensure through contracts and other forms that your personal information is protected to a standard no lower than that stipulated in this Policy. For the identity of the third parties and the purposes of collection, please see the third-party SDK descriptions in Appendix 3 of this Policy.</p>
+
+        <h2>6. Your Rights</h2>
+        <h3>6.1 Access, Correction, and Supplementation</h3>
+        <p>You have the right to access, correct, or supplement your information. You can do so yourself in the following ways:</p>
+        <ul>
+            <li>Log in to the website/client (APP), enter "My" to query, correct, or supplement personal information such as profile, account and security, and shipping addresses.</li>
+        </ul>
+
+        <h3>6.2 Deletion</h3>
+        <p>You may request us to delete your personal information under the following circumstances:</p>
+        <ul>
+            <li>If our collection and use of personal information violates laws and regulations;</li>
+            <li>If our processing of personal information breaches our agreement with you;</li>
+            <li>If you no longer use our products or services, or if you cancel your account;</li>
+            <li>If we no longer provide you with products or services;</li>
+            <li>If you withdraw your consent after having consented to our collection and use of your personal information.</li>
+        </ul>
+        <p>After you or we assist you in deleting the relevant information, due to applicable laws and security technologies, we may not be able to immediately delete the corresponding information from the backup system. We will securely store your personal information and isolate it from any further processing until the backup can be cleared or anonymized.</p>
+
+        <h3>6.3 Change the Scope of Your Authorization</h3>
+        <p>Each business function requires some basic personal information to be completed. For the collection and use of additional personal information, you can give or withdraw your authorization at any time.</p>
+
+        <h3>6.4 Account Cancellation</h3>
+        <p>Log in to the webpage and select "My - Customer Service Hotline" or log in to the APP and select "Help & Feedback - Problem Feedback" to seek help, or contact us through the information in "Section 12: Contact Us". We may first ask you to verify your identity before processing your request. We will complete the verification and processing within 15 working days. After account cancellation, we will stop providing you with products or services and, subject to your request, delete your personal information, unless otherwise provided by laws and regulations.</p>
+
+        <h3>6.5 Request an Explanation of This Privacy Policy</h3>
+        <p>You have the right to request us to explain this Privacy Policy to you at any time. Please contact us using the information in "Section 12: Contact Us".</p>
+
+        <h3>6.6 Responding to Your Requests</h3>
+        <p>For security reasons, you may need to provide a written request or otherwise prove your identity. We may first ask you to verify your identity before processing your request. We will respond within 15 working days. You can also file a complaint through our customer service at 0755-26656380. We may refuse requests that are not directly related to your identity, are重复, or require excessive technical means (e.g., require the development of new systems or fundamental changes to current practices), pose risks to the legitimate rights and interests of others, or are impractical.</p>
+
+        <h2>7. Cross-Border Transfer of Personal Information</h2>
+        <p>Personal information collected and generated during our operations within the People's Republic of China will be stored within China. Under the following circumstances, we will provide your personal information to overseas entities after fulfilling our legal obligations:</p>
+        <ul>
+            <li>Where expressly provided by applicable law;</li>
+            <li>Where you have given your explicit authorization;</li>
+            <li>Where you engage in personal proactive behavior such as cross-border transactions through the internet.</li>
+        </ul>
+        <p>In the above cases, we will ensure through contracts and other forms that your personal information is protected to a standard no lower than that stipulated in this Policy.</p>
+
+        <h2>8. How We Protect Personal Information</h2>
+        <p>We strive to ensure the security of your personal information to prevent leakage, alteration, loss, improper use, unauthorized access, and disclosure. When you enter, submit, or access your personal information, we take various security measures to maintain its security. For example, where possible, we use encryption to transmit and store personal information. We also further restrict access to this personal information through access controls and confidentiality commitments.</p>
+        <p>However, no website, application, or transmission can guarantee complete security of personal information. Therefore, although we have established and maintain procedures that we consider reasonable to protect the confidentiality, security, and integrity of personal information obtained through our website, products, and services, we cannot guarantee the security of any personal information you transmit to us.</p>
+
+        <h2>9. Storage Period of Your Personal Information</h2>
+        <p>For the purposes set out in this Privacy Policy, we will retain personal information related to you or your device. When the personal information is no longer needed for these purposes, we will delete it or save it in a form that cannot identify you, unless the law requires us to retain the personal information for a longer period. In determining the retention period, we consider various criteria, such as the type of products and services you request or are provided, the nature and duration of our relationship with you, potential re-registration for our products or services, the impact of deleting personal information on the services we provide to you, mandatory retention periods stipulated by law, and statutory limitation periods.</p>
+
+        <h2>10. Children's Privacy Policy</h2>
+        <p>Our website, products, and services are not directed at minors under the age of 18. We do not knowingly collect personal information from minors under the age of 18. We do not provide services directly to children nor use children's personal information for marketing purposes.</p>
+        <p>If you are a parent or other guardian of a minor and believe that the minor has provided us with any personal information, please contact us using the information in "Section 12: Contact Us". We will take measures to delete such information.</p>
+
+        <h2>11. Policy Changes</h2>
+        <p>We may change our Privacy Policy at any time. We will post any changes to the Privacy Policy on a dedicated page, and we recommend that you check this Privacy Policy regularly for the latest version. If you continue to use our products and services after the updated Privacy Policy takes effect, it means that you have fully read, understood, and accepted the updated Privacy Policy and agree to be bound by it.</p>
+
+        <h2>12. Contact Us</h2>
+        <p>You can contact us in the following ways, and we will reply within 15 working days:</p>
+        <ol>
+            <li>If you have any questions, opinions, or suggestions regarding the content of this Policy or minors' personal information, you can contact us through the website/client customer service;</li>
+            <li>We have appointed a Personal Information Protection Officer, whom you can contact at: 0755-26656380</li>
+        </ol>
+
+        <!-- Appendix 1 -->
+        <div class="attachment">
+            <h2>Appendix 1: Jiutian's Services and Collected Personal Information</h2>
+            <h3>【For APP】</h3>
+            <table>
+                <tr>
+                    <th>Function/Service</th>
+                    <th>Required Personal Information</th>
+                    <th>Necessity and Consequences of Not Providing</th>
+                </tr>
+                <tr>
+                    <td>Account Login</td>
+                    <td>Your nickname, avatar, mobile number, account, and password.</td>
+                    <td>You will not be able to use APP-related functions.</td>
+                </tr>
+                <tr>
+                    <td>Send Messages</td>
+                    <td>Your mobile number and message content.</td>
+                    <td>Automatically collected if you use the messaging service.</td>
+                </tr>
+                <tr>
+                    <td>Customer Service and Dispute Resolution</td>
+                    <td>Account information, mobile number, email, communication or call records with us, and other information you provide to explain the matter.</td>
+                    <td>Automatically collected when providing customer support or communicating with you.</td>
+                </tr>
+                <tr>
+                    <td>Security Assurance</极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询td>
+                    <td>Account information, mobile number.</td>
+                    <td>This information is essential for the basic functions of our service. If you do not provide such personal information, you will not be able to use our security assurance services.</td>
+                </tr>
+                <tr>
+                    <td>Location Services</td>
+                    <td>Nickname, robot ID, WiFi name and password, location information.</td>
+                    <td>We may not be able to provide you with location services.</td>
+                </tr>
+                <tr>
+                    <td>Local Storage</td>
+                    <td>Your email, nickname, avatar, user ID, Token, robot ID, WiFi name and password, location information.</td>
+                    <td>You may not be able to use our local storage services.</td>
+                </tr>
+                <tr>
+                    <td>Communicate with Us</td>
+                    <td>Information you voluntarily provide when filling out forms, responding to surveys, participating in promotions, communicating with our customer service team, or sharing your experiences with us.</td>
+                    <td>You may not be able to complete communication with us.</极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询td>
+                </tr>
+                <tr>
+                    <td>Improve Our Services</td>
+                    <td>Your usage information (including detailed page browsing information such as access time, pages browsed, and duration), list of applications on your mobile device, log data and device information, and information obtained through Cookies and similar technologies, as detailed in "4. How We Use Cookies and Similar Technologies".</td>
+                    <td>Your usage information (including detailed page browsing information such as access time, pages browsed, and duration), list of applications on your mobile device, log data and device information, and information obtained through Cookies and similar technologies, as detailed in "4. How极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询 We Use Cookies and Similar Technologies".</td>
+                </tr>
+            </table>
+
+            <h3>【For Device】</h3>
+            <table>
+                <tr>
+                    <th>Device Permission Request and Supported Function</th>
+                    <th>Related Personal Information</th>
+                    <th>How to Disable</th>
+                    <th>Consequences of Disabling</th>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>Precise location</td>
+                    <td>/</td>
+                    <td>Your location will not be displayed automatically, but you can still manually select your location.</td>
+                </tr>
+                <tr>
+                    <td>Local Storage</td>
+                    <td>Cache application data in your device and read such cached data to provide our services and enhance user experience.</td>
+                    <td>Cached application data in the device (including account information).</td>
+                    <td>This information is essential for the basic functions of our service. If you disable local storage permission, you will not be able to use the basic functions of our service.</td>
+                </tr>
+                <tr>
+                    <td>Device Identifier (maintain trust, security, and improve our services)</td>
+                    <td>Such as IP address, MAC address, Cookies, robot number.</td>
+                    <td>/</td>
+                    <td>You can still use our services, but the efficiency and accuracy of related functions will be negatively affected.</td>
+                </tr>
+                <tr>
+                    <td>Robot Path</td>
+                    <td>Map of the floor plan or area structure in the robot's working environment.</td>
+                    <td>/</td>
+                    <td>This is necessary for the robot to create a "map" of the working area and identify objects or obstacles encountered along the cleaning path.</td>
+                </tr>
+                <tr>
+                    <td>Robot Environment Information</td>
+                    <td>Information about the surrounding environment collected by the robot via sensors such as lidar.</td>
+                    <td>/</极速赛车极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询td>
+                    <td>The robot cannot perceive the environment, locate itself, or determine how to interact with the environment, and thus cannot work.</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Appendix 2 -->
+        <div class="attachment">
+            <h2>Appendix 2: Third-Party Service Providers and Shared Personal Information</h2>
+            <p>We send information to third-party service providers who support our business, including providing technical infrastructure services entrusted by us, analyzing how our services are used, measuring the effectiveness of advertising and services, providing customer service, facilitating payments, and providing logistics services. For companies, organizations, and individuals with whom we share personal information, we require them to process personal information in accordance with our instructions, this Policy, and any other relevant confidentiality and security measures.</p>
+            <p>In order to continuously improve the functions, services, and experience of Jiutian and its products, your personal information may be shared with the following third-party service providers who assist us in providing relevant capabilities:</p>
+            <ol>
+                <li><span class="highlight">Customer Service and Feedback:</span> In order to process your complaints and suggestions promptly, we will share your account information and details of the complained event with third-party customer service and feedback capability providers, entrusting them to follow up promptly and respond to your feedback.</li>
+                <li><span class="highlight">Marketing and Surveys:</span> In order to collect your opinions, suggestions, or any other feedback on Jiutian and its products in a timely manner, we may use your contact information and device ID for relevant market analysis.</li>
+            </ol>
+        </div>
+
+        <!-- Appendix 3 -->
+        <div class="attachment">
+            <h2>Appendix 3: Third-Party SDK Instructions</h2>
+            <p>In order to provide and optimize our services, our website and App embed third-party SDKs. While these third-party SDKs assist us in providing you with more comprehensive services, they may collect your personal information. The following lists the third-party institutions and SDK names we currently use and the purposes of collection. If you have questions about the personal information collected by third parties through SDKs, please refer to the respective third party's privacy policy.</p>
+            <table>
+                <tr>
+                    <th>Third-Party SDK Name</th>
+                    <th>Third-Party Name</th>
+                    <th>Personal Information Collected</th>
+                    <th>Collection Method and Purpose</th>
+                    <th>Privacy Policy Link</th>
+                </tr>
+                <tr>
+                    <td>Aliyun Push</td>
+                    <td>Alibaba Cloud Computing Co., Ltd.</td>
+                    <td>Device identifier information (IMEI [for versions below Android Q]/IDFA, Android ID, IMSI, MAC, OAID-related information), network information (IP, current network type and name), application information (app crash information, notification switch status, software list-related information), device parameters and system information (device type, device model, operating system, and hardware-related information).</td>
+                    <td>Integrated SDK; used to implement app message push (or other push) functionality.</td>
+                    <td><a href="https://www.aliyun.com/" target="_blank">Aliyun</a></td>
+                </tr>
+                <tr>
+                    <td>BuglySDK</td>
+                    <td>Shenzhen Tencent Computer Systems Co., Ltd.</td>
+                    <td>Log information (including: third-party developer custom logs, Logcat logs, and APP crash stack information), device ID (including android id and idfv), network information, system name, system version, and country code.</td>
+                    <td>Integrated SDK; used to view crash data and network data reported by the app, assist in operations, and optimize online crash issues.</td>
+                    <td><a href="https://privacy.qq.com/" target="_blank">Tencent Privacy Protection Platform</a></td>
+                </tr>
+                <tr>
+                    <td>com.igexin.push</td>
+                    <td>每日互动股份有限公司 (Getui)</td>
+                    <td>Device identifier information (IMEI [for versions below Android Q]/极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询IDFA, Android ID, IMSI, MAC, OAID-related information), network information (IP, current network type and name), application information (app crash information, notification switch status, software list-related information), device parameters and system information (device type, device model, operating system, and hardware-related information).</td>
+                    <td>Integrated SDK; used to implement app message push (or other push) functionality.</td>
+                    <td><a href="https://docs.getui.com/privacy/" target="_blank">Getui Privacy Policy</a></td>
+                </极速赛车开奖直播平台_168幸运飞行艇官网计划_168飞艇官网开奖记录查询tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
