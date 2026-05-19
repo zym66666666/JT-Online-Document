@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolClean App User Manual</title>
+    <style>
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .manual-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        h4 {
+            color: #2c3e50;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .version-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        .version-table th, .version-table td {
+            border: 1px solid #ddd;
+            padding: 8px 10px;
+            text-align: center;
+        }
+        .version-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        p, li {
+            font-size: 14px;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .image-caption {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .note {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #e74c3c;
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        .step-number {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            margin-right: 8px;
+            font-size: 12px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .manual-container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="manual-container">
+        <h1>CoolClean App User Manual</h1>
+        
+        <h2>Revision History</h2>
+        <table class="version-table">
+            <tr>
+                <th>Version</th>
+                <th>Modified By</th>
+                <th>Date</th>
+                <th>Main Changes</th>
+            </tr>
+            <tr>
+                <td>V1.0</td>
+                <td>sx</td>
+                <td>2022.12.11</td>
+                <td>Initial version</td>
+            </tr>
+            <tr>
+                <td>V1.2</td>
+                <td>zjh</td>
+                <td>2023.05.15</td>
+                <td>Updated login, cleaning plan, etc.</td>
+            </tr>
+            <tr>
+                <td>V3.0</td>
+                <td>swd</td>
+                <td>2024.05.01</td>
+                <td>Fixed historical errors</td>
+            </tr>
+             <tr>
+                <td>V4.0</td>
+                <td>zym</td>
+                <td>2026.05.19</td>
+                <td>Add internationalization configuration</td>
+            </tr>
+        </table>
+        
+        <h2>I. Overview</h2>
+        <p>CoolClean App is a handheld configuration tool developed by Jiutian Innovation Technology to work with Jiutian's self-developed outdoor cleaning robots. It aims to make cleaning simpler and more convenient, promoting the digitalization and unmanned transformation of cleaning in micro-circulation areas such as large enterprise group cultural and creative parks, industrial parks, etc. CoolClean App mainly works with self-developed unmanned cleaning vehicles to achieve remote cleaning control, generation of cleaning data reports, remote device monitoring, etc.</p>
+        
+        <h2>II. Software Description</h2>
+        <h3>2.1 Software Running and Installation Environment</h3>
+        <p>This App runs on Android 9.0 and above, Huawei HarmonyOS 1.0 system, iOS 13.0 and above. After installing the App, click the icon on the phone's home screen to run it and perform the required software operations.</p>
+        
+        <h3>2.2 Main Features of the Software</h3>
+        <p>CoolClean App can bind to CoolClean's self-developed unmanned cleaning vehicles with one-click scanning. After binding, users can remotely view device information and status to obtain vehicle operation status, remotely set vehicle terminal parameters, build maps, create cleaning plans, view historical cleaning reports, etc.</p>
+        
+        <h2>III. Software Usage</h2>
+        <h3>3.1 Login and Registration</h3>
+        <h4>3.1.2 Login</h4>
+        <p>Log in via cloud platform authorized account and password</p>
+        <div class="image-container">
+            <div class="image-caption">   <img src="./enPic/en01.jpg" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Click the CoolClean App icon to open the application, displaying the App login page. Directly enter the authorized account and password to log in successfully.</span>
+        </div>
+        
+        <h3>3.2 Getting Started</h3>
+        <p>The prerequisite for getting started is that map creation, zoning, and path uploading have been completed in the webApp, and then operations such as plan creation can be performed in the App. For zone map creation operation steps, please refer to the WebApp User Manual. The following are the steps for manually uploading maps from the webApp.</p>
+        
+        <h4>3.2.1 Upload Map from Operations App</h4>
+        <p>After using the remote control to create maps and record paths locally on the vehicle, you can enter the vehicle's webApp, click [Close Navigation] in the navigation interface, and then enter the map management interface, as shown below:</p>
+        <div class="image-container">
+            <div class="image-caption"> <img src="./enPic/en02.png" alt=""/></div>
+        </div>
+        
+        <h4>3.2.2 Cleaning Plan Creation</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Click the device operation page menu, click Cleaning Plan, enter the page and click the Add button</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en03.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Select cleaning method, select cleaning partition task</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en04.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>The meanings of partition content are as follows:</span>
+        </div>
+        <ul>
+            <li><span class="highlight">Select Partition:</span> Select the area that needs to be cleaned after partitioning</li>
+            <li><span class="highlight">Select Times:</span> Set the number of cleaning cycles, range (1-10)</li>
+            <li><span class="highlight">Cleaning Intensity:</span> Baffle height, low (cigarette butts, scattered leaves, etc.), medium (accumulated small leaves, etc.), high (accumulated large leaves, etc.), automatic (water bottles, etc.)</li>
+            <li><span class="highlight">Cleaning Method:</span> Includes edge cleaning and coverage cleaning. If you want to clean edges first and then cover, you can add edge cleaning first and then continue to add a coverage task</li>
+        </ul>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en05.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>After selecting the tasks to add, click Save and name</span>
+        </div>
+        <div class="note">
+            <span class="highlight">Note:</span> The device cleaning order is based on the order in which you add tasks
+        </div>
+        
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>Supports combination of partition and manually recorded paths for cleaning operations, just click Path and select the path name</span>
+        </div>
+        <div class="note">
+            <span class="highlight">Note:</span> For safety reasons, manually recorded paths should not exceed partition boundaries
+        </div>
+        
+        <h3>3.3 Cleaning Operations</h3>
+        <p>When the user has bound the device, created the map and cleaning plan, they can perform cleaning actions.</p>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Select the corresponding cleaning plan in the upper left corner,</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Then click the start button icon in the middle of the page, and the vehicle will clean according to the cleaning path generated by this plan. At this time, the start button changes to the task pause button.</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>Click the pause button icon, and the cleaning vehicle can pause the current task and stay in place.</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>Long press the start or pause button icon to end the current plan task in advance, and the vehicle will return to the set charging point.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>In any state of the vehicle, click the recall button, and the vehicle will immediately stop the current task and return to the charging point.</span>
+        </div>
+        
+        <h3>3.4 Device Information</h3>
+        <h4>3.4.1 View Map List Information</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en06.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en07.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>Click Map Management in the menu bar to jump to view the device's map list.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">6</div>
+            <span>Click the corresponding map to jump to view map details. Includes map creation start time, map area.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">7</div>
+            <span>Swipe left on the corresponding map creation record to display two setting options: [Default] [Delete]. Click Default to set this map as the device's default display map. Click Delete to delete this map.</span>
+        </div>
+        
+        <h4>3.4.2 View Cleaning Task Information</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en08.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">9</div>
+            <span>Click View Cleaning Task Information in the menu bar to jump to view the device's cleaning task list.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">10</div>
+            <span>Click on a cleaning plan to jump to view cleaning plan details, and you can rename, edit area paths, waypoints, and times of the plan.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">11</div>
+            <span>Swipe left on the corresponding cleaning task to display two setting options: [Default] [Delete]. Click Default to set this cleaning task as the default cleaning task for the device's default map. Click Delete to delete this cleaning task.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">12</div>
+            <span>Click the + button in the lower right corner of the page to create a new cleaning task</span>
+        </div>
+        
+        <h4>3.4.3 View Work Records</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en09.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">13</div>
+            <span>Click Work Records in the menu bar to jump to view the device's work records.</span>
+        </div>
+        <div class="note">
+            <span class="highlight">Note:</span> Work records include: Normal Cleaning, Abnormal Cleaning, Normal Map Creation, Abnormal Map Creation
+        </div>
+          <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en10.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">14</div>
+            <span>Click the corresponding work record to view work record details</span>
+        </div>
+        
+        <h4>3.4.4 Device Remote Settings</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en11.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en12.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">15</div>
+            <span>Click Vehicle Settings in the menu bar to jump to view device details, general settings, low battery return settings, turn signal settings, and device volume settings, etc.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">16</div>
+            <span>Click General Settings to jump to device settings, where you can set turn signals, low battery return switch, and device volume.</span>
+        </div>
+        
+        <h4>3.4.5 Scheduled Tasks</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en13.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en14.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Enter the device function list and click [Scheduled Tasks] to enter the scheduled tasks page</span>
+        </div>
+           <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en15.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Set the scheduled task time, click to pop up the task start time window, select time from 00:00 to 24:00.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>Set the repetition frequency of scheduled tasks, click to pop up options from "Monday to Sunday", multiple selections are allowed. When all are selected, it means daily repetition. When multiple options are selected, it means scheduled cleaning repeats on those days of the week. When none are selected, it means the scheduled task executes only once.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>Select cleaning plan, click to jump to the cleaning plan list.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>Finally save the scheduled task plan. After successful saving, when the vehicle is properly configured, the vehicle can automatically clean at the start time of the scheduled task.</span>
+        </div>
+        <div class="note">
+            <span class="highlight">Conditions for automatic cleaning via scheduled tasks:</span><br>
+            1) The vehicle needs to remain in standby state<br>
+            2) The vehicle needs to have a charging point set, and in the webApp, set the departure and return routes from the charging point to the path starting point, and the vehicle must always be at the charging point.
+        </div>
+        
+        <h3>3.5 Cleaning Reports</h3>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en16.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en17.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Click Reports in the App's bottom menu bar to jump to the reports page, displaying the device's cleaning reports.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Click on a cleaning report record to view report details.</span>
+        </div>
+        
+        <h3>3.6 My</h3>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en18.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Click My in the App's bottom menu bar to jump to the My page, displaying the user's personal avatar, nickname, phone number, App settings, and information about the App</span>
+        </div>
+        
+        <h4>3.6.1 App Display Language Switching</h4>
+        <p>Click [Display Language] to switch between Chinese and English in the App.</p>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en19.png" alt=""/></div>
+        </div>
+        
+        <h4>3.6.2 App About Information</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Click [About] to jump to view the App's End User License Agreement, Privacy Policy, and App version number.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Click [Company Website] to jump to the phone's default browser and open Jiutian Innovation's official website.</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./enPic/en20.png" alt=""/></div>
+        </div>
+    </div>
+</body>
+</html>
