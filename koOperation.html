@@ -1,1 +1,436 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolClean 앱 사용 설명서</title>
+    <style>
+        body {
+            font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .manual-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        h4 {
+            color: #2c3e50;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .version-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        .version-table th, .version-table td {
+            border: 1px solid #ddd;
+            padding: 8px 10px;
+            text-align: center;
+        }
+        .version-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        p, li {
+            font-size: 14px;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .image-caption {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .note {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #e74c3c;
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        .step-number {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            margin-right: 8px;
+            font-size: 12px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .manual-container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="manual-container">
+        <h1>CoolClean 앱 사용 설명서</h1>
+        
+        <h2>개정 이력</h2>
+        <table class="version-table">
+            <tr>
+                <th>버전</th>
+                <th>수정자</th>
+                <th>날짜</th>
+                <th>주요 변경 내용</th>
+            </tr>
+            <tr>
+                <td>V1.0</td>
+                <td>sx</td>
+                <td>2022.12.11</td>
+                <td>초기 버전 생성</td>
+            </tr>
+            <tr>
+                <td>V1.2</td>
+                <td>zjh</td>
+                <td>2023.05.15</td>
+                <td>로그인, 청소 계획 등 내용 업데이트</td>
+            </tr>
+            <tr>
+                <td>V3.0</td>
+                <td>swd</td>
+                <td>2024.05.01</td>
+                <td>과거 오류 수정</td>
+            </tr>
+            <tr>
+                <td>V4.0</td>
+                <td>zym</td>
+                <td>2026.05.19</td>
+                <td>국제화 구성 추가</td>
+            </tr>
+        </table>
+        
+        <h2>I. 개요</h2>
+        <p>CoolClean 앱은 주티안이 자체 개발한 실외 청소 로봇과 함께 사용하기 위해 주티안 혁신 기술에서 개발한 모바일 설정 도구입니다. 청소를 더 간단하고 편리하게 만드는 목적을 가지고 대기업 그룹 문화 창작 단지, 산업 단지 등의 마이크로 순환 구역에서의 청소 디지털화, 무인화 변혁을 촉진합니다. CoolClean 앱은 주로 자체 개발된 무인 청소차와 함께 차량의 원격 청소 제어, 청소 데이터 보고서 생성, 장치 원격 모니터링 등을 구현합니다.</p>
+        
+        <h2>II. 소프트웨어 설명</h2>
+        <h3>2.1 소프트웨어 실행 및 설치 환경</h3>
+        <p>본 앱은 Android 9.0 이상, Huawei HarmonyOS 1.0 시스템, iOS 13.0 이상에서 실행됩니다. 앱을 설치한 후, 휴대폰 홈 화면에서 아이콘을 클릭하여 실행하고 필요한 소프트웨어 작업을 수행할 수 있습니다.</p>
+        
+        <h3>2.2 소프트웨어 주요 기능</h3>
+        <p>CoolClean 앱은 CoolClean이 자체 개발한 무인 청소차를 한 번의 스캔으로 바인딩할 수 있으며, 바인딩 후 장치 정보 상태를 원격으로 확인하여 차량 운행 상태를 획득하고, 차량 단말기의 매개변수를 원격으로 설정하며, 지도를 구성하고, 청소 계획을 생성하고, 차량의 과거 청소 보고서 등을 확인할 수 있습니다.</p>
+        
+        <h2>III. 소프트웨어 사용</h2>
+        <h3>3.1 로그인 및 등록</h3>
+        <h4>3.1.2 로그인</h4>
+        <p>클라우드 플랫폼 인증 계정 및 비밀번호로 로그인</p>
+        <div class="image-container">
+            <div class="image-caption">   <img src="./koPic/ko01.jpg" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>CoolClean 앱 아이콘을 클릭하여 앱을 열고, 앱 로그인 페이지가 표시되면 인증된 계정과 비밀번호를 직접 입력하여 로그인에 성공합니다.</span>
+        </div>
+        
+        <h3>3.2 시작하기</h3>
+        <p>시작하기 위한 전제 조건은 웹앱에서 지도 작성, 구역화 및 경로 업로드 작업이 완료된 후, 앱에서 계획 생성 등 작업을 시작할 수 있습니다. 구역 지도 작성 작업 단계는 WebApp 사용 설명서를 참조하십시오. 다음은 웹앱에서 지도를 수동으로 업로드하는 단계입니다.</p>
+        
+        <h4>3.2.1 운영 앱에서 지도 업로드</h4>
+        <p>리모컨을 사용하여 현지에서 차량에 대한 지도 작성 및 경로 녹화가 끝나면 차량의 웹앱에 들어가 내비게이션 인터페이스에서 [내비게이션 종료]를 클릭한 후 지도 관리 인터페이스에 들어갑니다. 아래 그림과 같습니다:</p>
+        <div class="image-container">
+            <div class="image-caption"> <img src="./koPic/ko02.png" alt=""/></div>
+        </div>
+        
+        <h4>3.2.2 청소 계획 생성</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>장치 작업 페이지 메뉴를 클릭하고, 청소 계획을 클릭한 후 페이지에서 추가 버튼을 클릭합니다.</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko03.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>청소 방식을 선택하고, 청소 구역 작업을 선택합니다.</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko04.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>구역 내용의 의미는 다음과 같습니다:</span>
+        </div>
+        <ul>
+            <li><span class="highlight">구역 선택:</span> 구획화 후 작업이 필요한 영역을 선택합니다.</li>
+            <li><span class="highlight">횟수 선택:</span> 순환 청소 횟수를 설정하며, 범위는 (1-10)입니다.</li>
+            <li><span class="highlight">청소 강도:</span> 배플 높이, 낮음(담배꽁초, 흩어진 잎사귀 등), 중간(쌓인 작은 잎사귀 등), 높음(쌓인 큰 잎사귀 등), 자동(물병 등)</li>
+            <li><span class="highlight">청소 방식:</span> 가장자리 청소와 덮개 청소를 포함합니다. 가장자리를 먼저 청소한 후 덮개 청소를 하려면 가장자리 청소를 먼저 추가한 후 덮개 작업을 계속 추가할 수 있습니다.</li>
+        </ul>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko05.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>추가할 작업을 선택한 후 저장을 클릭하고 이름을 지정합니다.</span>
+        </div>
+        <div class="note">
+            <span class="highlight">참고:</span> 장치 청소 순서는 작업을 추가한 순서에 따라 진행됩니다.
+        </div>
+        
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>구역과 수동 녹화 경로의 조합 방식을 지원하여 청소 작업을 수행하며, 경로를 클릭하고 경로 이름을 선택하면 됩니다.</span>
+        </div>
+        <div class="note">
+            <span class="highlight">참고:</span> 안전상의 이유로 수동으로 녹화된 경로는 구역 경계를 초과하지 않아야 합니다.
+        </div>
+        
+        <h3>3.3 청소 작업</h3>
+        <p>사용자가 장치를 바인딩하고 지도와 청소 계획을 생성한 후 청소 작업을 실행할 수 있습니다.</p>
+           <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko21.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>왼쪽 상단에서 해당 청소 계획을 선택합니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>그런 다음 페이지 중앙의 시작 버튼 아이콘을 클릭하면 차량이 이 계획에 의해 생성된 청소 경로에 따라 청소를 시작하며, 이때 시작 버튼이 작업 일시 중지 버튼으로 바뀝니다.</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>일시 중지 버튼 아이콘을 클릭하면 청소 중인 차량이 현재 작업을 일시 중지하고 제자리에 정지합니다.</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>시작 또는 일시 중지 버튼 아이콘을 길게 누르면 현재 계획 작업을 조기에 종료하고 차량이 설정된 충전 지점으로 돌아갑니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>차량이 어떤 상태에 있든지, 소환 버튼을 클릭하면 차량이 현재 작업을 즉시 중지하고 충전 지점으로 돌아갑니다.</span>
+        </div>
+        
+        <h3>3.4 장치 정보</h3>
+        <h4>3.4.1 지도 목록 정보 확인</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko06.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko07.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>메뉴 모음에서 지도 관리를 클릭하면 해당 장치의 지도 목록으로 이동합니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">6</div>
+            <span>해당 지도를 클릭하면 지도 세부 정보로 이동합니다. 지도 작성 시작 시간, 지도 면적을 포함합니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">7</div>
+            <span>해당 지도 작성 기록을 왼쪽으로 밀면 [기본값] [삭제]의 두 가지 설정 옵션이 나타납니다. 기본값을 클릭하면 이 지도를 장치의 기본 표시 지도로 설정합니다. 삭제를 클릭하면 이 지도를 삭제합니다.</span>
+        </div>
+        
+        <h4>3.4.2 청소 작업 정보 확인</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko08.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">9</div>
+            <span>메뉴 모음에서 청소 작업 정보 보기를 클릭하면 해당 장치의 청소 작업 목록으로 이동합니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">10</div>
+            <span>청소 계획을 클릭하면 청소 계획 세부 정보로 이동하며, 동시에 계획의 이름 변경, 영역 경로, 경유점 및 횟수를 편집할 수 있습니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">11</div>
+            <span>해당 청소 작업을 왼쪽으로 밀면 [기본값] [삭제]의 두 가지 설정 옵션이 나타납니다. 기본값을 클릭하면 이 청소 작업을 장치의 기본 지도에 대한 기본 청소 작업으로 설정합니다. 삭제를 클릭하면 이 청소 작업을 삭제합니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">12</div>
+            <span>페이지 오른쪽 하단의 + 버튼을 클릭하여 새로운 청소 작업을 생성합니다.</span>
+        </div>
+        
+        <h4>3.4.3 작업 기록 확인</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko09.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">13</div>
+            <span>메뉴 모음에서 작업 기록을 클릭하면 해당 장치의 작업 기록으로 이동합니다.</span>
+        </div>
+        <div class="note">
+            <span class="highlight">참고:</span> 작업 기록에는 청소 정상, 청소 이상, 지도 작성 정상, 지도 작성 이상의 네 가지 유형이 있습니다.
+        </div>
+          <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko10.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">14</div>
+            <span>해당 작업 기록을 클릭하면 작업 기록 세부 정보를 확인할 수 있습니다.</span>
+        </div>
+        
+        <h4>3.4.4 장치 원격 설정</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko11.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko12.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">15</div>
+            <span>메뉴 모음에서 차량 설정을 클릭하면 장치 세부 정보, 일반 설정, 저전력 충전 설정, 방향 지시등 설정 및 장치 볼륨 설정 등을 확인할 수 있습니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">16</div>
+            <span>일반 설정을 클릭하면 장치 설정으로 이동하며, 방향 지시등 설정, 저전력 충전 스위치, 장치 볼륨 크기 설정이 가능합니다.</span>
+        </div>
+        
+        <h4>3.4.5 예약 작업</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko13.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko14.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>장치 기능 목록에 들어가 [예약 작업]을 클릭하여 예약 작업 페이지에 들어갑니다.</span>
+        </div>
+           <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko15.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>예약 작업 시간을 설정하고, 작업 시작 시간 팝업을 클릭하여 표시하며, 시간은 00:00에서 24:00 사이에서 선택합니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>예약 작업 반복 빈도를 설정하고, 클릭하면 "월요일부터 일요일" 사이에서 팝업되며, 여러 항목을 선택할 수 있습니다. 모두 선택하면 매일 반복을 의미하며, 여러 항목을 선택하면 매주 해당 요일에 예약 청소를 반복합니다. 모두 선택하지 않으면 해당 예약 작업은 한 번만 실행됩니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>청소 계획을 선택하고, 청소 계획 목록으로 이동합니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>마지막으로 해당 예약 작업 계획을 저장합니다. 저장에 성공하면 차량이 설정된 후, 예약 작업 시작 시간에 차량이 자동으로 청소할 수 있습니다.</span>
+        </div>
+        <div class="note">
+            <span class="highlight">예약 작업 자동 청소 구현 조건:</span><br>
+            1) 차량은 대기 상태에 계속 있어야 합니다.<br>
+            2) 차량에 충전 지점을 설정해야 하며, webapp에서 충전 지점에서 경로 시작점까지의 출항 및 귀항 경로를 설정하고, 차량이 항상 충전 지점에 있어야 합니다.
+        </div>
+        
+        <h3>3.5 청소 보고서</h3>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko16.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko17.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>앱 하단 메뉴 모음에서 보고서를 클릭하면 보고서 페이지로 이동하여 장치의 청소 보고서를 표시합니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>청소 보고서 기록을 클릭하면 보고서 세부 정보를 확인할 수 있습니다.</span>
+        </div>
+        
+        <h3>3.6 내 정보</h3>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko18.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>앱 하단 메뉴 모음에서 내 정보를 클릭하면 내 정보 페이지로 이동하여 사용자의 개인 아바타, 닉네임, 전화번호, 앱 설정 및 앱 관련 정보를 표시합니다.</span>
+        </div>
+        
+        <h4>3.6.1 앱 표시 언어 전환</h4>
+        <p>[표시 언어]를 클릭하면 앱의 중/영문 전환이 완료됩니다.</p>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko19.png" alt=""/></div>
+        </div>
+        
+        <h4>3.6.2 앱 정보</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>[정보]를 클릭하면 앱의 최종 사용자 사용권 계약, 개인정보 보호정책, 앱 버전 번호를 확인할 수 있습니다.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>[기업 웹사이트]를 클릭하면 휴대폰 시스템 기본 브라우저로 전환되어 주티안 혁신의 공식 웹사이트가 열립니다.</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./koPic/ko20.png" alt=""/></div>
+        </div>
+    </div>
+</body>
+</html>
