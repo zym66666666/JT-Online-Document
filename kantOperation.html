@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolClean App操作手冊</title>
+    <style>
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .manual-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        h4 {
+            color: #2c3e50;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .version-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        .version-table th, .version-table td {
+            border: 1px solid #ddd;
+            padding: 8px 10px;
+            text-align: center;
+        }
+        .version-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        p, li {
+            font-size: 14px;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .image-caption {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 5px;
+            text-algin:center;
+        }
+        .note {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #e74c3c;
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        .step-number {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            margin-right: 8px;
+            font-size: 12px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .manual-container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="manual-container">
+        <h1>CoolClean App操作手冊</h1>
+        
+        <h2>修訂記錄</h2>
+        <table class="version-table">
+            <tr>
+                <th>版本號</th>
+                <th>修改人</th>
+                <th>日期</th>
+                <th>主要變更內容</th>
+            </tr>
+            <tr>
+                <td>V1.0</td>
+                <td>sx</td>
+                <td>2022.12.11</td>
+                <td>建立初始版本</td>
+            </tr>
+            <tr>
+                <td>V1.2</td>
+                <td>zjh</td>
+                <td>2023.05.15</td>
+                <td>更新登入、清潔計劃等內容</td>
+            </tr>
+            <tr>
+                <td>V3.0</td>
+                <td>swd</td>
+                <td>2024.05.01</td>
+                <td>修復歷史錯誤</td>
+            </tr>
+            <tr>
+                <td>V4.0</td>
+                <td>zym</td>
+                <td>2026.05.19</td>
+                <td>新增國際化配置</td>
+            </tr>
+        </table>
+        
+        <h2>一、概述</h2>
+        <p>CoolClean App是由九天創新科技開發的一款配合九天自主研發的室外機器人的掌上設置工具，旨在秉承著讓清潔更簡單方便的目的，推動大型企業集團文創園區、產業園區等微循環區域的清潔數字化、無人化的變革。CoolClean App主要和自主研發的無人清潔車配合實現車輛的遠程清潔控制，清潔數據報告的生成，設備遠程監控等。</p>
+        
+        <h2>二、軟件說明</h2>
+        <h3>2.1 軟件的執行安裝環境</h3>
+        <p>本App執行適用於安卓9.0以上，華為鴻蒙1.0系統，iOS13.0以上。安裝好App後，可在手機主界面點擊圖標就可以執行，進行需要的軟件操作。</p>
+        
+        <h3>2.2 軟件的主要功能</h3>
+        <p>CoolClean App可以一鍵掃碼綁定CoolClean自主研發的無人清潔車，綁定後透過對設備信息狀態的遠程查看獲取車輛執行的狀態，對車輛終端的參數進行遠程設置，同時可以構建地圖，創建清潔計劃，查看車輛歷史的清潔報告等等。</p>
+        
+        <h2>三、軟件使用</h2>
+        <h3>3.1 登入註冊</h3>
+        <h4>3.1.2 登入</h4>
+        <p>透過雲平台授權賬號密碼登入</p>
+        <div class="image-container">
+            <div class="image-caption">   <img src="./hantPic/hant01.jpg" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>點擊CoolClean App的圖標，打開APP應用，展示App登入頁，直接輸入授權賬號密碼登入，即可登入成功。</span>
+        </div>
+        
+        <h3>3.2 開始使用</h3>
+        <p>開始使用的前提是在webApp已經完成建圖，分區和路徑上傳的工作後，再在App進行開始計劃創建等操作。分區建圖操作步驟請參考WebApp操作手冊，以下是手動從webApp上傳地圖操作步驟。</p>
+        
+        <h4>3.2.1 從運維app上傳地圖</h4>
+        <p>在本地使用遙控器對車輛進行地圖建圖和路徑錄製完之後，可以進入車端的webApp，在導航界面點擊【關閉導航】後，隨後進入到地圖管理界面，如下圖：</p>
+        <div class="image-container">
+            <div class="image-caption"> <img src="./hantPic/hant02.png" alt=""/></div>
+        </div>
+        
+        <h4>3.2.2 清潔計劃創建</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>點擊設備操作頁菜單，點擊清潔計劃，進入頁面後點擊新增按鈕</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant03.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>選擇清潔方式，選擇清掃分區任務</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant04.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>分區內容含義如下：</span>
+        </div>
+        <ul>
+            <li><span class="highlight">選擇分區：</span>選擇需要劃分好後需要作業的區域</li>
+            <li><span class="highlight">選擇次數：</span>設定循環清掃次數，次數範圍為（1-10）</li>
+            <li><span class="highlight">清潔強度：</span>擋板高度、小（煙頭、散落樹葉等）、中（堆積小樹葉等）、高（堆積大樹葉等）、自動（水瓶等）</li>
+            <li><span class="highlight">清掃方式：</span>包括沿邊和覆蓋選擇，如果想先清掃沿邊後清掃覆蓋，可以先新增沿邊再繼續新增一個覆蓋任務</li>
+        </ul>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant05.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>選擇完需要新增的任務，點擊儲存並命名</span>
+        </div>
+        <div class="note">
+            <span class="highlight">註：</span>設備清掃的順序是按照你新增任務的順序進行清掃
+        </div>
+        
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>支援分區與手動錄製路徑組合方式進行清掃作業，只需點擊路徑並選擇路徑名稱即可</span>
+        </div>
+        <div class="note">
+            <span class="highlight">註：</span>為了安全起見，手動錄製的路徑不要超出分區的邊界
+        </div>
+        
+        <h3>3.3 清潔操作</h3>
+        <p>當用戶已經綁定了設備，創建了地圖和清潔計劃之後，就可以進行執行清掃動作了。</p>
+           <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant21.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>在左上角選擇相應的清潔計劃，</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>然後點擊頁面中間的啟動按鈕的icon，車輛即可按照這個計劃所生成的清潔路徑進行清掃，此時啟動按鈕變成任務暫停按鈕。</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>點擊暫停按鈕的icon，正在清潔的車輛可以暫停當前任務停在原地。</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>長按啟動或者暫停按鈕的icon，即可提前結束當前計劃任務，車輛會回到設定的充電點。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>車輛在任意狀態下，點擊召回按鈕，車輛就會馬上停止當前任務，回到充電點。</span>
+        </div>
+        
+        <h3>3.4 設備信息</h3>
+        <h4>3.4.1 查看地圖列表信息</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant06.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant07.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>菜單欄點擊地圖管理，即可跳轉至查看該設備的地圖列表。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">6</div>
+            <span>點擊相應的地圖，即可跳轉查看地圖詳情。包括建圖開始時間，建圖面積。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">7</div>
+            <span>在相應的地圖建圖記錄左滑即可出現兩個設定選項：【預設】【刪除】，點擊預設即可將該地圖作為該設備的預設顯示地圖，點擊刪除即可刪除該地圖。</span>
+        </div>
+        
+        <h4>3.4.2 查看清潔任務信息</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant08.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">9</div>
+            <span>菜單欄點清潔任務查看信息，即可跳轉查看該設備的清潔任務列表。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">10</div>
+            <span>點擊某一條清潔計劃，即可跳轉查看清潔計劃詳情，同時可對計劃進行重新命名，區域路徑，途經點以及次數進行編輯。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">11</div>
+            <span>在相應的清潔任務左滑即可出現兩個設定選項：【預設】【刪除】，點擊預設即可將該地圖作為該設備的預設地圖的預設清潔任務，點擊刪除即可刪除該清潔任務。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">12</div>
+            <span>點擊頁面右下角的＋號即可新增清潔任務</span>
+        </div>
+        
+        <h4>3.4.3 查看工作記錄</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant09.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">13</div>
+            <span>菜單欄點擊工作記錄，即可跳轉查看該設備的工作記錄。</span>
+        </div>
+        <div class="note">
+            <span class="highlight">注意：</span>工作記錄包括：清潔正常，清潔異常，建圖正常，建圖異常這四種
+        </div>
+          <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant10.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">14</div>
+            <span>點擊相應的工作記錄即可查看工作記錄詳情</span>
+        </div>
+        
+        <h4>3.4.4 設備遠程設置</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant11.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant12.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">15</div>
+            <span>菜單欄點車輛設置，即可跳轉查看設備的詳細信息，通用設置，低電量回充設置，轉向燈設置以及設備音量設置等。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">16</div>
+            <span>點擊通用設置，即可跳轉進行設備設置，可設置設定轉向燈，低電量回充開關，設定設備音量大小。</span>
+        </div>
+        
+        <h4>3.4.5預約任務</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant13.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant14.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>進入到設備功能列表點擊【預約任務務】，進入到預約任務頁面</span>
+        </div>
+           <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant15.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>設定定時任務的時間，點擊彈出任務開始時間的彈窗，時間選擇從00：00——24：00之間選擇。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>設定定時任務的重複頻次，點擊可彈出，從"週一——週日"之間，可多選，當全部選擇時，表示每天重複，當多選其中選項時，則每週幾重複定時清掃。當全部不選擇時，則代表該定時任務只執行一次。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>選擇清潔計劃，點擊跳轉至清潔計劃列表。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>最後儲存該定時任務計劃。儲存成功後，在車輛設定好之後可以，到了該定時任務的開始時間，車輛可以自動清掃。</span>
+        </div>
+        <div class="note">
+            <span class="highlight">實現定時任務自動清掃的條件：</span><br>
+            1）車輛需要一直處於待機的狀態<br>
+            2）車輛需要設定好充電點，並且在webapp設定好充電點到路徑起點的出航線和返航線，並且車輛一直位於充電點的地方。
+        </div>
+        
+        <h3>3.5 清潔報告</h3>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant16.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant17.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>點擊App的底部菜單欄報告，即可跳轉至報告頁面，展示設備的清潔報告。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>點擊某一條清潔報告記錄，即可查看報告詳情。</span>
+        </div>
+        
+        <h3>3.6 我的</h3>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant18.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>點擊App的底部菜單欄我的，即可跳轉至我的頁面，展示用戶的個人頭像，暱稱，手機號，App設定和關於App相關信息</span>
+        </div>
+        
+        <h4>3.6.1 App顯示語言切換</h4>
+        <p>點擊【顯示語言】，即可完成App的中英文切換。</p>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant19.png" alt=""/></div>
+        </div>
+        
+        <h4>3.6.2 App關於信息</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>點擊【關於】，即可跳轉查看App的用戶許可協議，隱私權協議，App的版本號。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>點擊【企業網站】即可跳轉至手機系統預設的瀏覽器打開九天創新的官方網站。</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./hantPic/hant20.png" alt=""/></div>
+        </div>
+    </div>
+</body>
+</html>
