@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolClean App操作手册</title>
+    <style>
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .manual-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        h4 {
+            color: #2c3e50;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .version-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        .version-table th, .version-table td {
+            border: 1px solid #ddd;
+            padding: 8px 10px;
+            text-align: center;
+        }
+        .version-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        p, li {
+            font-size: 14px;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .image-caption {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        .note {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #e74c3c;
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        .step-number {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            margin-right: 8px;
+            font-size: 12px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .manual-container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="manual-container">
+        <h1>CoolClean App操作手册</h1>
+        
+        <h2>修订记录</h2>
+        <table class="version-table">
+            <tr>
+                <th>版本号</th>
+                <th>修改人</th>
+                <th>日期</th>
+                <th>主要变更内容</th>
+            </tr>
+            <tr>
+                <td>V1.0</td>
+                <td>sx</td>
+                <td>2022.12.11</td>
+                <td>建立初始版本</td>
+            </tr>
+            <tr>
+                <td>V1.2</td>
+                <td>zjh</td>
+                <td>2023.05.15</td>
+                <td>更新登录、清洁计划等内容</td>
+            </tr>
+            <tr>
+                <td>V3.0</td>
+                <td>swd</td>
+                <td>2024.05.01</td>
+                <td>修复历史错误</td>
+            </tr>
+        </table>
+        
+        <h2>一、概述</h2>
+        <p>CoolClean App是由九天创新科技开发的一款配合九天自主研发的室外机器人的掌上设置工具，旨在秉承着让清洁更简单方便的目的，推动大型企业集团文创园区、产业园区等微循环区域的清洁数字化、无人化的变革。CoolClean App主要和自主研发的无人清洁车配合实现车辆的远程清洁控制，清洁数据报告的生成，设备远程监控等。</p>
+        
+        <h2>二、软件说明</h2>
+        <h3>2.1 软件的运行安装环境</h3>
+        <p>本App运行适用于安卓9.0以上，华为鸿蒙1.0系统，iOS13.0以上。安装好App后，可在手机主界面点击图标就可以运行，进行需要的软件操作。</p>
+        
+        <h3>2.2 软件的主要功能</h3>
+        <p>CoolClean App可以一键扫码绑定CoolClean自主研发的无人清洁车，绑定后通过对设备信息状态的远程查看获取车辆运行的状态，对车辆终端的参数进行远程设置，同时可以构建地图，创建清洁计划，查看车辆历史的清洁报告等等。</p>
+        
+        <h2>三、软件使用</h2>
+        <h3>3.1 登录注册</h3>
+        <h4>3.1.2 登陆</h4>
+        <p>通过云平台授权账号密码登录</p>
+        <div class="image-container">
+            <div class="image-caption">图3-1 登录界面</div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>点击CoolClean App的图标，打开APP应用，展示App登录页，直接输入授权账号密码登录，即可登录成功。</span>
+        </div>
+        
+        <h3>3.2 开始使用</h3>
+        <p>开始使用的前提是在webApp已经完成建图，分区和路径上传的工作后，再在App进行开始计划创建等操作。分区建图操作步骤请参考WebApp操作手册，以下是手动从webApp上传地图操作步骤。</p>
+        
+        <h4>3.2.1 手动从webApp上传地图</h4>
+        <p>在本地使用遥控器对车辆进行地图建图和路径录制完之后，可以进入车端的webApp，在导航界面点击【关闭导航】后，随后进入到地图管理界面，如下图：</p>
+        <div class="image-container">
+            <div class="image-caption">图3-2 地图管理界面</div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>点击上传弹出以下弹窗：</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-3 上传地图弹窗</div>
+        </div>
+        
+        <h4>3.2.2 清洁计划创建</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>点击设备操作页菜单，点击清洁计划，进入页面后点击添加按钮</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-4 清洁计划页面</div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>选择清洁方式，选择清扫分区任务</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-5 清洁方式选择</div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>分区内容含义如下：</span>
+        </div>
+        <ul>
+            <li><span class="highlight">选择分区：</span>选择需要划分好后需要作业的区域</li>
+            <li><span class="highlight">选择次数：</span>设置循环清扫次数，次数范围为（1-10）</li>
+            <li><span class="highlight">清洁强度：</span>挡板高度、小（烟头、散落树叶等）、中（堆积小树叶等）、高（堆积大树叶等）、自动（水瓶等）</li>
+            <li><span class="highlight">清扫方式：</span>包括沿边和覆盖选择，如果想先清扫沿边后清扫覆盖，可以先添加沿边再继续添加一个覆盖任务</li>
+        </ul>
+        <div class="image-container">
+            <div class="image-caption">图3-6 分区任务设置</div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>选择完需要添加的任务，点击保存并命名</span>
+        </div>
+        <div class="note">
+            <span class="highlight">注：</span>设备清扫的顺序是按照你添加任务的顺序进行清扫
+        </div>
+        
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>支持分区与手动录制路径组合方式进行清扫作业，只需点击路径并选择路径名称即可</span>
+        </div>
+        <div class="note">
+            <span class="highlight">注：</span>为了安全起见，手动录制的路径不要超出分区的边界
+        </div>
+        
+        <h3>3.3 清洁操作</h3>
+        <p>当用户已经绑定了设备，创建了地图和清洁计划之后，就可以进行执行清扫动作了。</p>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>在左上角选择相应的清洁计划，</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>然后点击页面中间的启动按钮的icon，车辆即可按照这个计划所生成的清洁路径进行清扫，此时启动按钮变成任务暂停按钮。</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>点击暂停按钮的icon，正在清洁的车辆可以暂停当前任务停在原地。</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>长按启动或者暂停按钮的icon，即可提前结束当前计划任务，车辆会回到设置的充电点。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>车辆在任意状态下，点击召回按钮，车辆就会马上停止当前任务，回到充电点。</span>
+        </div>
+        
+        <h3>3.4 设备信息</h3>
+        <h4>3.4.1 查看地图列表信息</h4>
+        <div class="image-container">
+            <div class="image-caption">图3-20 地图列表</div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-21 地图详情</div>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>菜单栏点击地图管理，即可跳转至图3-20查看该设备的地图列表。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">6</div>
+            <span>点击相应的地图，即可跳转至图3-21查看地图详情。包括建图开始时间，建图面积。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">7</div>
+            <span>在相应的地图建图记录左滑即可出现两个设置选项：【默认】【删除】，点击默认即可将该地图作为该设备的默认显示地图，点击删除即可删除该地图。</span>
+        </div>
+        
+        <h4>3.4.2 查看清洁计划信息</h4>
+        <div class="image-container">
+            <div class="image-caption">图3-22 清洁计划列表</div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-23 清洁计划详情</div>
+        </div>
+        <div class="step">
+            <div class="step-number">9</div>
+            <span>菜单栏点计划清洁，即可跳转至图3-22查看该设备的清洁计划列表。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">10</div>
+            <span>点击某一条清洁计划，即可跳转至图3-23查看清洁计划详情，同时可对计划进行重命名，区域路径，途经点以及次数进行编辑。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">11</div>
+            <span>在相应的清洁计划左滑即可出现两个设置选项：【默认】【删除】，点击默认即可将该地图作为该设备的默认地图的默认清洁计划，点击删除即可删除该清洁计划。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">12</div>
+            <span>点击页面右下角的＋号即可新建清洁计划</span>
+        </div>
+        
+        <h4>3.4.3 查看工作记录</h4>
+        <div class="image-container">
+            <div class="image-caption">图3-24 工作记录列表</div>
+        </div>
+        <div class="step">
+            <div class="step-number">13</div>
+            <span>菜单栏点击工作记录，即可跳转至图3-22查看该设备的工作记录。</span>
+        </div>
+        <div class="note">
+            <span class="highlight">注意：</span>工作记录包括：清洁正常，清洁异常，建图正常，建图异常这四种
+        </div>
+        <div class="step">
+            <div class="step-number">14</div>
+            <span>点击相应的工作记录即可查看工作记录详情</span>
+        </div>
+        
+        <h4>3.4.4 设备远程设置</h4>
+        <div class="image-container">
+            <div class="image-caption">图3-25 设备设置</div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-26 通用设置</div>
+        </div>
+        <div class="step">
+            <div class="step-number">15</div>
+            <span>菜单栏点设备设置，即可跳转至图3-25，查看设备的详细信息，通用设置，固件升级（正在开发中）以及重启设备。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">16</div>
+            <span>图3-25点击通用设置，即可跳转至3-27进行设备设置，可对勿扰设置，低电量回充开关，设备语音大小进行设置。</span>
+        </div>
+        
+        <h4>3.4.5 定时任务</h4>
+        <div class="image-container">
+            <div class="image-caption">图3-28 定时任务入口</div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-29 定时任务设置</div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>进入到设备功能列表如图3-28，点击【定时任务】，进入到定时任务页面，如图3-29</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>设置定时任务的时间，点击弹出任务开始时间的弹窗如图3-31，时间选择从00：00——24：00之间选择。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>设置定时任务的重复频次，点击可弹出弹窗如图3-32，从"周一——周日"之间，可多选，当全部选择时，表示每天重复，当多选其中选项时，则每周几重复定时清扫。当全部不选择时，则代表该定时任务只执行一次。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>选择清洁计划，点击跳转至清洁计划列表，如图3-30。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>最后保存该定时任务计划。保存成功后，在车辆设置好之后可以，到了该定时任务的开始时间，车辆可以自动清扫。</span>
+        </div>
+        
+        <div class="image-container">
+            <div class="image-caption">图3-30 清洁计划选择</div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-31 时间选择</div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-32 重复频次选择</div>
+        </div>
+        
+        <div class="note">
+            <span class="highlight">实现定时任务自动清扫的条件：</span><br>
+            1）车辆需要一直处于待机的状态<br>
+            2）车辆需要设置好充电点，并且在webapp设置好充电点到路径起点的出航线和返航线，并且车辆一直位于充电点的地方。
+        </div>
+        
+        <h3>3.5 清洁报告</h3>
+        <div class="image-container">
+            <div class="image-caption">图3-28 清洁报告列表</div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-29 清洁报告详情</div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>点击App的底部菜单栏报告，即可跳转至报告页面，如图3-28，展示设备的清洁报告。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>点击某一条清洁报告记录，即可查看报告详情，如图3-29。</span>
+        </div>
+        
+        <h3>3.6 我的</h3>
+        <div class="image-container">
+            <div class="image-caption">图3-30 我的页面</div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>点击App的底部菜单栏我的，即可跳转至我的页面，如图3-30，展示用户的个人头像，昵称，手机号，App设置和关于App相关信息</span>
+        </div>
+        
+        <h4>3.6.1 App显示语言切换</h4>
+        <p>点击【显示语言】，即可完成App的中英文切换。</p>
+        <div class="image-container">
+            <div class="image-caption">图3-36 语言设置</div>
+        </div>
+        
+        <h4>3.6.2 App关于信息</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>在图3-33点击【关于】，即可跳转至图3-37,查看App的用户许可协议，隐私权协议，App的版本号。</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>点击【企业网站】即可跳转至手机系统默认的浏览器打开九天创新的官方网站。</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption">图3-37 关于页面</div>
+        </div>
+    </div>
+</body>
+</html>
