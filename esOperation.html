@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de operación de la aplicación CoolClean</title>
+    <style>
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .manual-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        h4 {
+            color: #2c3e50;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .version-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        .version-table th, .version-table td {
+            border: 1px solid #ddd;
+            padding: 8px 10px;
+            text-align: center;
+        }
+        .version-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        p, li {
+            font-size: 14px;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .image-caption {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 5px;
+            text-algin:center;
+        }
+        .note {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #e74c3c;
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        .step-number {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            margin-right: 8px;
+            font-size: 12px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .manual-container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="manual-container">
+        <h1>Manual de operación de la aplicación CoolClean</h1>
+        
+        <h2>Registro de revisiones</h2>
+        <table class="version-table">
+            <tr>
+                <th>Número de versión</th>
+                <th>Modificado por</th>
+                <th>Fecha</th>
+                <th>Contenido principal de cambios</th>
+            </tr>
+            <tr>
+                <td>V1.0</td>
+                <td>sx</td>
+                <td>2022.12.11</td>
+                <td>Establecer versión inicial</td>
+            </tr>
+            <tr>
+                <td>V1.2</td>
+                <td>zjh</td>
+                <td>2023.05.15</td>
+                <td>Actualizar inicio de sesión, plan de limpieza, etc.</td>
+            </tr>
+            <tr>
+                <td>V3.0</td>
+                <td>swd</td>
+                <td>2024.05.01</td>
+                <td>Corregir errores históricos</td>
+            </tr>
+            <tr>
+                <td>V4.0</td>
+                <td>zym</td>
+                <td>2026.05.19</td>
+                <td>Agregar configuración de internacionalización</td>
+            </tr>
+        </table>
+        
+        <h2>I. Resumen</h2>
+        <p>CoolClean App es una herramienta de configuración de mano desarrollada por Jiutian Innovation Technology que funciona con robots de limpieza exterior autodesarrollados de Jiutian. Su objetivo es hacer que la limpieza sea más simple y conveniente, promoviendo la transformación digital y no tripulada de la limpieza en áreas de microcirculación como parques culturales y creativos de grandes grupos empresariales, parques industriales, etc. CoolClean App funciona principalmente con vehículos de limpieza no tripulados autodesarrollados para lograr el control remoto de limpieza de vehículos, la generación de informes de datos de limpieza, el monitoreo remoto de dispositivos, etc.</p>
+        
+        <h2>II. Descripción del software</h2>
+        <h3>2.1 Entorno de ejecución e instalación del software</h3>
+        <p>Esta aplicación se ejecuta en Android 9.0 y superior, sistema Huawei HarmonyOS 1.0, iOS 13.0 y superior. Después de instalar la aplicación, puede hacer clic en el icono en la pantalla principal del teléfono para ejecutarla y realizar las operaciones de software necesarias.</p>
+        
+        <h3>2.2 Funciones principales del software</h3>
+        <p>CoolClean App puede vincularse con un solo clic a los vehículos de limpieza no tripulados autodesarrollados de CoolClean. Después de la vinculación, se puede ver de forma remota el estado de la información del dispositivo para obtener el estado de funcionamiento del vehículo, configurar de forma remota los parámetros del terminal del vehículo, al mismo tiempo que se puede construir mapas, crear planes de limpieza, ver informes de limpieza históricos del vehículo, etc.</p>
+        
+        <h2>III. Uso del software</h2>
+        <h3>3.1 Inicio de sesión y registro</h3>
+        <h4>3.1.2 Inicio de sesión</h4>
+        <p>Inicie sesión con la cuenta y contraseña autorizadas de la plataforma en la nube</p>
+        <div class="image-container">
+            <div class="image-caption">   <img src="./esPic/es01.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Haga clic en el icono de la aplicación CoolClean para abrir la aplicación, mostrar la página de inicio de sesión de la aplicación, ingrese directamente la cuenta y contraseña autorizadas para iniciar sesión, y podrá iniciar sesión correctamente.</span>
+        </div>
+        
+        <h3>3.2 Comenzar a usar</h3>
+        <p>El requisito previo para comenzar a usar es que se hayan completado la creación de mapas, la partición y la carga de rutas en la webApp, y luego se realicen operaciones como la creación de planes en la aplicación. Para los pasos de operación de creación de mapas de partición, consulte el Manual de operación de WebApp. Los siguientes son los pasos para cargar manualmente mapas desde la webApp.</p>
+        
+        <h4>3.2.1 Cargar mapa desde la aplicación de operaciones</h4>
+        <p>Después de usar el control remoto para crear mapas y grabar rutas localmente en el vehículo, puede ingresar a la webApp del vehículo, hacer clic en [Cerrar navegación] en la interfaz de navegación y luego ingresar a la interfaz de administración de mapas, como se muestra a continuación:</p>
+        <div class="image-container">
+            <div class="image-caption"> <img src="./esPic/es02.png" alt=""/></div>
+        </div>
+        
+        <h4>3.2.2 Creación de plan de limpieza</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Haga clic en el menú de la página de operación del dispositivo, haga clic en Plan de limpieza, ingrese a la página y haga clic en el botón Agregar</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es03.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Seleccione el método de limpieza, seleccione la tarea de partición de limpieza</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es04.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>El significado del contenido de la partición es el siguiente:</span>
+        </div>
+        <ul>
+            <li><span class="highlight">Seleccionar partición:</span> Seleccione el área que necesita ser operada después de dividir</li>
+            <li><span class="highlight">Seleccionar veces:</span> Establecer el número de ciclos de limpieza, rango (1-10)</li>
+            <li><span class="highlight">Intensidad de limpieza:</span> Altura del deflector, baja (colillas de cigarrillos, hojas dispersas, etc.), media (hojas pequeñas acumuladas, etc.), alta (hojas grandes acumuladas, etc.), automática (botellas de agua, etc.)</li>
+            <li><span class="highlight">Método de limpieza:</span> Incluye selección de borde y cobertura. Si desea limpiar primero el borde y luego la cobertura, puede agregar primero el borde y luego continuar agregando una tarea de cobertura</li>
+        </ul>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es05.png" alt=""/></div>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>Después de seleccionar las tareas que desea agregar, haga clic en Guardar y nombre</span>
+        </div>
+        <div class="note">
+            <span class="highlight">Nota:</span> El orden de limpieza del dispositivo se basa en el orden en que agrega las tareas
+        </div>
+        
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>Admite la combinación de partición y rutas grabadas manualmente para operaciones de limpieza, simplemente haga clic en Ruta y seleccione el nombre de la ruta</span>
+        </div>
+        <div class="note">
+            <span class="highlight">Nota:</span> Por razones de seguridad, las rutas grabadas manualmente no deben exceder los límites de la partición
+        </div>
+        
+        <h3>3.3 Operaciones de limpieza</h3>
+        <p>Cuando el usuario haya vinculado el dispositivo, creado el mapa y el plan de limpieza, podrá realizar acciones de limpieza.</p>
+           <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es21.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>En la esquina superior izquierda, seleccione el plan de limpieza correspondiente,</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Luego haga clic en el icono del botón de inicio en el medio de la página, y el vehículo limpiará de acuerdo con la ruta de limpieza generada por este plan. En este momento, el botón de inicio se convierte en el botón de pausa de la tarea.</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>Haga clic en el icono del botón de pausa, y el vehículo de limpieza puede pausar la tarea actual y permanecer en su lugar.</span>
+        </div>
+        
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>Mantenga presionado el icono del botón de inicio o pausa para finalizar la tarea del plan actual antes de tiempo, y el vehículo regresará al punto de carga establecido.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>En cualquier estado del vehículo, haga clic en el botón de llamada, y el vehículo detendrá inmediatamente la tarea actual y regresará al punto de carga.</span>
+        </div>
+        
+        <h3>3.4 Información del dispositivo</h3>
+        <h4>3.4.1 Ver información de la lista de mapas</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es06.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es07.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>Haga clic en Gestión de mapas en la barra de menú para saltar a la lista de mapas del dispositivo.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">6</div>
+            <span>Haga clic en el mapa correspondiente para saltar a los detalles del mapa. Incluye hora de inicio de creación del mapa, área del mapa.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">7</div>
+            <span>Deslice hacia la izquierda en el registro de creación del mapa correspondiente para que aparezcan dos opciones de configuración: [Predeterminado] [Eliminar]. Haga clic en Predeterminado para establecer este mapa como el mapa de visualización predeterminado del dispositivo. Haga clic en Eliminar para eliminar este mapa.</span>
+        </div>
+        
+        <h4>3.4.2 Ver información de tareas de limpieza</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es08.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">9</div>
+            <span>Haga clic en Ver información de tareas de limpieza en la barra de menú para saltar a la lista de tareas de limpieza del dispositivo.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">10</div>
+            <span>Haga clic en un plan de limpieza para saltar a los detalles del plan de limpieza, y al mismo tiempo puede cambiar el nombre, editar las rutas del área, los puntos de paso y el número de veces del plan.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">11</div>
+            <span>Deslice hacia la izquierda en la tarea de limpieza correspondiente para que aparezcan dos opciones de configuración: [Predeterminado] [Eliminar]. Haga clic en Predeterminado para establecer esta tarea de limpieza como la tarea de limpieza predeterminada para el mapa predeterminado del dispositivo. Haga clic en Eliminar para eliminar esta tarea de limpieza.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">12</div>
+            <span>Haga clic en el botón + en la esquina inferior derecha de la página para crear una nueva tarea de limpieza</span>
+        </div>
+        
+        <h4>3.4.3 Ver registros de trabajo</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es09.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">13</div>
+            <span>Haga clic en Registros de trabajo en la barra de menú para saltar a los registros de trabajo del dispositivo.</span>
+        </div>
+        <div class="note">
+            <span class="highlight">Nota:</span> Los registros de trabajo incluyen: limpieza normal, limpieza anormal, creación de mapas normal, creación de mapas anormal
+        </div>
+          <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es10.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">14</div>
+            <span>Haga clic en el registro de trabajo correspondiente para ver los detalles del registro de trabajo</span>
+        </div>
+        
+        <h4>3.4.4 Configuración remota del dispositivo</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es11.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es12.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">15</div>
+            <span>Haga clic en Configuración del vehículo en la barra de menú para saltar a los detalles del dispositivo, configuración general, configuración de retorno de baja batería, configuración de luces direccionales y configuración de volumen del dispositivo, etc.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">16</div>
+            <span>Haga clic en Configuración general para saltar a la configuración del dispositivo, donde puede configurar las luces direccionales, el interruptor de retorno de baja batería y el volumen del dispositivo.</span>
+        </div>
+        
+        <h4>3.4.5 Tareas programadas</h4>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es13.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es14.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Ingrese a la lista de funciones del dispositivo y haga clic en [Tareas programadas] para ingresar a la página de tareas programadas</span>
+        </div>
+           <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es15.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Establezca la hora de la tarea programada, haga clic para abrir la ventana de la hora de inicio de la tarea, seleccione la hora entre 00:00 y 24:00.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <span>Establezca la frecuencia de repetición de la tarea programada, haga clic para abrir opciones desde "Lunes a Domingo", se permiten selecciones múltiples. Cuando se seleccionan todas, significa repetición diaria. Cuando se seleccionan múltiples opciones, significa que la limpieza programada se repite en esos días de la semana. Cuando no se selecciona ninguna, significa que la tarea programada se ejecuta solo una vez.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <span>Seleccione el plan de limpieza, haga clic para saltar a la lista de planes de limpieza.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <span>Finalmente guarde el plan de tareas programadas. Después de guardar con éxito, cuando el vehículo esté configurado, el vehículo puede limpiar automáticamente a la hora de inicio de la tarea programada.</span>
+        </div>
+        <div class="note">
+            <span class="highlight">Condiciones para la limpieza automática mediante tareas programadas:</span><br>
+            1) El vehículo debe permanecer en estado de espera<br>
+            2) El vehículo debe tener un punto de carga configurado, y en la webApp, configurar las rutas de salida y retorno desde el punto de carga hasta el punto de inicio de la ruta, y el vehículo debe estar siempre en el punto de carga.
+        </div>
+        
+        <h3>3.5 Informes de limpieza</h3>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es16.png" alt=""/></div>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es17.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Haga clic en Informes en la barra de menú inferior de la aplicación para saltar a la página de informes, mostrando los informes de limpieza del dispositivo.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Haga clic en un registro de informe de limpieza para ver los detalles del informe.</span>
+        </div>
+        
+        <h3>3.6 Mi</h3>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es18.png" alt=""/></div>
+        </div>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Haga clic en Mi en la barra de menú inferior de la aplicación para saltar a la página Mi, mostrando el avatar personal del usuario, apodo, número de teléfono, configuración de la aplicación e información relacionada con la aplicación</span>
+        </div>
+        
+        <h4>3.6.1 Cambio de idioma de visualización de la aplicación</h4>
+        <p>Haga clic en [Idioma de visualización] para cambiar entre chino e inglés en la aplicación.</p>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es19.png" alt=""/></div>
+        </div>
+        
+        <h4>3.6.2 Información sobre la aplicación</h4>
+        <div class="step">
+            <div class="step-number">1</div>
+            <span>Haga clic en [Acerca de] para saltar a ver el Acuerdo de licencia de usuario final de la aplicación, la Política de privacidad y el número de versión de la aplicación.</span>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <span>Haga clic en [Sitio web de la empresa] para saltar al navegador predeterminado del sistema del teléfono y abrir el sitio web oficial de Jiutian Innovation.</span>
+        </div>
+        <div class="image-container">
+            <div class="image-caption"><img src="./esPic/es20.png" alt=""/></div>
+        </div>
+    </div>
+</body>
+</html>
